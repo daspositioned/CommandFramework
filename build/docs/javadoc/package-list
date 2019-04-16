@@ -1,0 +1,7 @@
+net.seliba.commandframework
+net.seliba.commandframework.api
+net.seliba.commandframework.internal.args
+net.seliba.commandframework.internal.command
+net.seliba.commandframework.internal.framework
+net.seliba.commandframework.internal.tab
+net.seliba.commandframework.internal.util
