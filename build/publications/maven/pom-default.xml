@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.seliba</groupId>
+  <artifactId>commandframework</artifactId>
+  <version>1.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.6</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>spigot-api</artifactId>
+      <version>1.13.2-R0.1-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.md-5</groupId>
+      <artifactId>bungeecord-api</artifactId>
+      <version>1.13-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>CommandFramework</name>
+  <description>A simple framework to create commands easier for spigot.</description>
+  <url>https://github.com/selibanet/CommandFramework</url>
+  <scm>
+    <url>https://github.com/selibanet/CommandFramework</url>
+    <connection>scm:git:git://github.com/selibanet/CommandFramework.git</connection>
+    <developerConnection>scm:git:ssh:git@github.com:selibanet/CommandFramework.git</developerConnection>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>selibanet</id>
+      <name>Daniel Scherf</name>
+      <email>munita.gavai@gmail.com</email>
+    </developer>
+  </developers>
+</project>
